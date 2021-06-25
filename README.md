@@ -3,7 +3,7 @@
 - deeq-electra는 baikal.ai가 개발하고 있는 pre-trained ELECTRA(base) 모델입니다.
 - 한국어 위키, 1990~2020 네이버 뉴스 등을 포함한 다양한 말뭉치를 정제하여 학습합니다.
 - 모델은 huggingface에 deeq/delectra로 공개되어있어 transformers 라이브러리로 간편하게 사용할 수 있습니다.
-- delectra는 wordpiece 토크나이저(BERT)를 그대로 사용하므로 ELECTRA 모델을 사용하는 코드에서 쉽게 불러쓸 수 있습니다.
+- delectra는 wordpiece 토크나이저(BERT)를 그대로 사용합니다.
 
 ## files
 
