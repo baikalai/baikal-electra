@@ -5,7 +5,7 @@ discriminator = ElectraForPreTraining.from_pretrained("deeq/delectra")
 tokenizer = ElectraTokenizerFast.from_pretrained("deeq/delectra")
 
 sentence = "서울은 한국의 수도 입니다."
-fake_sentence = "서울은 한국의 국가 입니다."
+fake_sentence = "서울은 한국의 나라 입니다."
 
 print(tokenizer.tokenize(sentence))
 fake_tokens = tokenizer.tokenize(fake_sentence)
